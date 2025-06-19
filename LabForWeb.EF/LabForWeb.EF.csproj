@@ -20,4 +20,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\AdventureWorks\AdventureWorks.csproj" />
+  </ItemGroup>
+
 </Project>

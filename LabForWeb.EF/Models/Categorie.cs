@@ -14,8 +14,6 @@ public partial class Categorie
 
     public string Nome { get; set; } = null!;
 
-    public string Descrizione { get; set; } = null!;
-
     [InverseProperty("Categoria")]
     public virtual ICollection<Todo> Todos { get; set; } = new List<Todo>();
 }
